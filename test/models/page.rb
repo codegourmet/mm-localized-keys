@@ -5,5 +5,5 @@ class Page
   include MongoMapper::Document
   include MongoMapper::Plugins::LocalizedKeys
 
-  localized_keys :title, [:de, :en], String, required: true
+  localized_keys :title, String, [:de, :en], required: true
 end
