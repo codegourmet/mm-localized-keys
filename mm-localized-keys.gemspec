@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/mm-publishing-logic/version', __FILE__)
+require File.expand_path('../lib/mm-localized-keys/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["codegourmet"]
