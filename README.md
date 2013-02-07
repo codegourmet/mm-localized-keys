@@ -35,7 +35,8 @@ Just include it in your models. It handles exaktly like mongo_mapper `keys`, but
 This will add some r/w accessors and keys, depending on the locales parameter passed.
 
 ### Example
-    This plugin will add a localized attribute for every locale. Also, it will add a non-localized r/w accessor which will route to the aforementioned keys depending on which locale is currently set (or supplied via param, see below).
+    This plugin will add a localized attribute for every locale. Also, it will add a non-localized r/w accessor which will
+    route to the aforementioned keys depending on which locale is currently set (or supplied via param, see below).
 
     NOTE: all options that you append to the `localized_keys` call will be passed through to the mongo_mapper `key` method.
 
