@@ -1,4 +1,4 @@
-# mm-localized-keys
+# [![Coverage Status](https://coveralls.io/repos/codegourmet/mm-localized-keys/badge.png?branch=master)](https://coveralls.io/r/codegourmet/mm-localized-keys) mm-localized-keys
 
 Localized keys for Rails/MongoMapper models.
 

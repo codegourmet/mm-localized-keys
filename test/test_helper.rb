@@ -1,6 +1,10 @@
 # Configure Rails Environment
 ENV["RAILS_ENV"] = "test"
 
+# NOTE this has to be at the top!
+require 'coveralls'
+Coveralls.wear!('rails')
+
 require 'rubygems'
 require 'test/unit'
 require 'factory_girl'
